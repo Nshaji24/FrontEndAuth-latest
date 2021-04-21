@@ -1,0 +1,48 @@
+<div>
+    <div *ngIf="currentCatch.id" class="edit-form">
+      <h4>Catch</h4>
+      <form>
+        <div class="form-group">
+          <label for="username">Angler</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            [(ngModel)]="currentCatch.username"
+            name="username"
+          />
+        </div>
+        <div class="form-group">
+          <label for="fishId">Fish</label>
+          <input
+            type="text"
+            class="form-control"
+            id="fishId"
+            [(ngModel)]="currentCatch.fishId"
+            name="fishId"
+          />
+        </div>
+  
+        
+      </form>
+  
+     
+      <button class="badge badge-danger mr-2" (click)="deleteCatch()">
+        Delete
+      </button>
+  
+      <button
+        type="submit"
+        class="badge badge-success mb-2"
+        (click)="updateCatch()"
+      >
+        Update
+      </button>
+      <p>{{ message }}</p>
+    </div>
+  
+    <div *ngIf="!currentCatch.id">
+      <br />
+      <p>Cannot access this Catch...</p>
+    </div>
+  </div>

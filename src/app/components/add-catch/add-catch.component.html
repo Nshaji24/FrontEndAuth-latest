@@ -1,0 +1,48 @@
+
+<div>
+    <div class="submit-form">
+      <div *ngIf="!submitted">
+        <div class="form-group">
+          <label for="username">Angler</label>
+          <input
+            type="text"
+            class="form-control"
+            id="username"
+            required
+            [(ngModel)]="catch.username"
+            name="username"
+          />
+        </div>
+  
+        <div class="form-group">
+          <label for="fishId">Fish</label>
+          <input
+            class="form-control"
+            id="fishId"
+            required
+            [(ngModel)]="catch.fishId"
+            name="fishId"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="gearId">Gear</label>
+          <input
+            type="text"
+            class="form-control"
+            id="gearId"
+            required
+            [(ngModel)]="catch.gearId"
+            name="gearId"
+          />
+        </div>
+  
+        <button (click)="saveCatch()" class="btn btn-success">Submit</button>
+      </div>
+  
+      <div *ngIf="submitted">
+        <h4>Catch was submitted successfully!</h4>
+        <button class="btn btn-success" (click)="newCatch()">Add</button>
+      </div>
+    </div>
+  </div>

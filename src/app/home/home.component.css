@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,300,500,100|Raleway:400,800");
+.about-us-description {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  margin-top: 14px;
+  min-height: 452px;
+  width: 438px;
+}
+.about-us-text-display {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 50px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  margin-left: 302px;
+  min-height: 664px;
+  padding: 32px 63px;
+  width: 566px;
+}
+.background-wave-vector {
+  height: 498px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1442px;
+}
+.button {
+  align-items: center;
+  background-color: var(--cruise);
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  height: 68px;
+  justify-content: flex-end;
+  margin-top: 32px;
+  min-width: 177px;
+  padding: 0 33px;
+}
+.button-text-i87070 {
+  height: 42px;
+  letter-spacing: 0px;
+  min-height: 42px;
+  min-width: 110px;
+  text-align: center;
+}
+.fish-vector-art {
+  height: 312px;
+  left: 114px;
+  position: absolute;
+  top: 209px;
+  width: 557px;
+}
+.flex-row {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 664px;
+  margin-right: 2px;
+  margin-top: 47px;
+  min-width: 1045px;
+}
+.landing-page-content- {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1440px;
+}
+.landing-page-content-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 229px;
+  min-height: 880px;
+  position: absolute;
+  top: 68px;
+  width: 1121px;
+}
+.landing-page-template {
+  align-items: flex-end;
+  background-color: var(--sea-serpent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 1024px;
+  justify-content: center;
+  left: 0px;
+  min-width: 1440px;
+  position: absolute;
+  top: 0px;
+}
+.overlap-group {
+  height: 1024px;
+  position: relative;
+  width: 1440px;
+}
+.overlap-group1 {
+  height: 521px;
+  position: relative;
+  width: 1442px;
+}
+.text-1 {
+  letter-spacing: 0px;
+  margin-left: 2px;
+  min-height: 134px;
+  text-align: center;
+  width: 405px;
+}
+.title {
+  letter-spacing: 36px;
+  min-height: 169px;
+  min-width: 984px;
+  text-align: center;
+}
+.raleway-extra-bold-white-144px {
+  color: var(--white);
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-144px);
+  font-style: normal;
+  font-weight: 800;
+}
+.roboto-light-acapulco-96px {
+  color: var(--acapulco);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-96px);
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-normal-evening-sea-18px {
+  color: var(--evening-sea);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-18px);
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-evening-sea-36px {
+  color: var(--evening-sea);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-36px);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --acapulco: rgba(126, 207, 163, 1);
+  --cruise: rgba(184, 251, 215, 1);
+  --evening-sea: rgba(13, 75, 71, 1);
+  --font-family-raleway: "Raleway", Helvetica;
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-size-144px: 144px;
+  --font-size-18px: 18px;
+  --font-size-36px: 36px;
+  --font-size-96px: 96px;
+  --sea-serpent: rgba(76, 199, 192, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
